@@ -34,7 +34,8 @@
 .page-title-image {
     font-size: 22px;
     line-height: 2.6;
-    font-family: Playfair Display SC, serif;	
+    font-family: Playfair Display SC, serif;
+    color: #2e2256;
 }
 @media only screen and (max-width: 992px) {
 	.site-title {
@@ -77,6 +78,21 @@ an-title {
 .an-fr-comm,
 .an-fr-sah {
     font-size: 14px;
+}
+
+.an-label,
+.an-amount,
+.an-bids,
+.an-page-next,
+.an-page-prev {
+color: #000000;
+}
+
+#aution-nudge-items, 
+.an-listings-widget, 
+.for-sale-sidebar {
+    width: 100%;
+    padding: 0;
 }
 
 .an-view > a { /* 'Buy It Now' button */
