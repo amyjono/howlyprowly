@@ -1,0 +1,98 @@
+/*
+ Theme Name:   Howly Prowly
+ Description:  Custom child theme for Howly Prowly
+ Author:       Amy Johnson
+ Template:     twentyfifteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fifteen-child
+*/
+
+/**
+* Typography Styles
+*/
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC|Vidaloka');
+.site-title {
+	font-family: Vidaloka, serif;
+	font-size: 34px;
+}
+.site-description {
+	font-family: Vidaloka, serif;
+}
+#menu-top-menu {
+	font-family: Playfair Display SC, serif;
+}
+.entry-title {
+	font-family: Playfair Display SC, serif;
+    color: #2e2256;
+	}
+.entry-content {
+	font-size: 16px;
+}
+.page-title-image {
+    font-size: 22px;
+    line-height: 2.6;
+    font-family: Playfair Display SC, serif;	
+}
+@media only screen and (max-width: 992px) {
+	.site-title {
+		font-size: 26px;
+	}
+}
+
+.nav-previous > a,
+.nav-next > a {
+    color: #0073aa;
+}
+
+/**
+* Global Styles
+*/
+
+
+/**
+* Auction Nudge Styles
+*/
+
+#aution-nudge-feedback, 
+.an-feedback-widget, 
+.an-fb-meta
+.about-sidebar {
+    margin-top: 7%;
+    width: 100%;
+    padding: 0;
+}
+
+.an-fb, 
+.an-fb-profile,
+.an-ft,
+.an-fr,
+an-title {
+    color: #000000;
+}
+.an-ft-head,
+.an-fr-criteria,
+.an-fr-comm,
+.an-fr-sah {
+    font-size: 14px;
+}
+
+.an-view > a { /* 'Buy It Now' button */
+    color: #ffffff;
+    background-color: #00509d;
+    background: -webkit-gradient(linear,left top,left bottom,from(#0079bc),to(#00509d));
+    background: -moz-linear-gradient(top,#0079bc,#00509d);
+    border-radius: 5px;
+    padding: 2%;
+    font-family: sans-serif;
+}
+
+.an-ends {
+    margin-bottom: 2%;
+    }
+
+.an-time {
+    color: red;
+}
